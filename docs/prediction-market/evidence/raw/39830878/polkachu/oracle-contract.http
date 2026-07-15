@@ -1,0 +1,14 @@
+HTTP/2 200 
+date: Wed, 15 Jul 2026 16:30:29 GMT
+content-type: application/json
+content-length: 361
+server: cloudflare
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+grpc-metadata-content-type: application/grpc+cosmos-sdk-grpc-codec
+grpc-metadata-x-cosmos-block-height: 39830878
+x-server-time: 1784133029
+cf-cache-status: DYNAMIC
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=t1JMx9Bwb%2BbijmqyMdytjbqXOOqo4cv2%2FucaKk5g9dSPbavz42BCjmuW3%2Fs7Rr276HLTSh9tdXkoOgsVqaqSvr7xTemjBPzcEXue%2F5B2MvhQidyjMyur9vJd17Mop%2FJsNBnt9wMLgg%3D%3D"}]}
+cf-ray: a1ba26e8cc4d19a5-CDG
+
+{"address":"juno1g0pveeymzn3a3asu6v2dhkclqhwsndmvjugjx8a4qx554esp5yessuceur","contract_info":{"code_id":"5121","creator":"juno1mtzvz3vz6ss96ar3e8jd5pn0rh08ql5uvxvzwd","admin":"juno1mtzvz3vz6ss96ar3e8jd5pn0rh08ql5uvxvzwd","label":"cw-reality v0.1.0-alpha.1 — JunoReality","created":{"block_height":"38338323","tx_index":"0"},"ibc_port_id":"","extension":null}}

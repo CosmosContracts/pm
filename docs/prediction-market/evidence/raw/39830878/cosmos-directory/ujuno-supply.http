@@ -1,0 +1,17 @@
+HTTP/2 200 
+date: Wed, 15 Jul 2026 16:30:25 GMT
+content-type: application/json
+content-length: 55
+access-control-allow-origin: *
+grpc-metadata-content-type: application/grpc+cosmos-sdk-grpc-codec
+grpc-metadata-x-cosmos-block-height: 39830878
+server: cloudflare
+strict-transport-security: max-age=63072000
+vary: Origin, Accept-Encoding
+x-server-time: 1784133025
+cf-cache-status: DYNAMIC
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=LES%2B9EmCOd1s%2FGJOctY2Xp0HPBnfchaqukktq0MLMBUJ6jqo0MC%2FGwNHDn0TQCrSs3euNajusDeufKHU6uSvSYJEAcLZk5yVTDZG8Um0BZyIdX06QKctbznrowMFxqyT683V18kieA%3D%3D"}]}
+cf-ray: a1ba26d37a7c248e-CDG
+
+{"amount":{"denom":"ujuno","amount":"139886182343626"}}

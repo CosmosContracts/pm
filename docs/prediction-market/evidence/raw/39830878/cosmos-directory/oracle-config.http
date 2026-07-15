@@ -1,0 +1,16 @@
+HTTP/2 200 
+date: Wed, 15 Jul 2026 16:30:27 GMT
+content-type: application/json
+content-length: 130
+access-control-allow-origin: *
+grpc-metadata-content-type: application/grpc+cosmos-sdk-grpc-codec
+grpc-metadata-x-cosmos-block-height: 39830878
+server: cloudflare
+vary: Origin, Accept-Encoding
+x-server-time: 1784133027
+cf-cache-status: DYNAMIC
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=VRuTmVyzchq6weiDuzf2chKKIZRn1TNs0WIqxb5xEAdn%2FMZPsOxvnRJNAQhThueif5Epdc60ZbgIaicPM%2F8Ql5Fj4qsI%2F%2FaWragkE18m530pJ84rS%2FUeXqfjmDQ0Z8VGVvJWzlYKhA%3D%3D"}]}
+cf-ray: a1ba26dccab8d146-CDG
+
+{"data":{"admin":"juno1mtzvz3vz6ss96ar3e8jd5pn0rh08ql5uvxvzwd","min_initial_bond_floor":"100000","min_answer_timeout_secs":86400}}

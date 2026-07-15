@@ -1,0 +1,16 @@
+HTTP/2 200 
+date: Wed, 15 Jul 2026 16:30:24 GMT
+content-type: application/json
+content-length: 717
+access-control-allow-origin: *
+grpc-metadata-content-type: application/grpc+cosmos-sdk-grpc-codec
+grpc-metadata-x-cosmos-block-height: 39830878
+server: cloudflare
+vary: Origin, Accept-Encoding
+x-server-time: 1784133024
+cf-cache-status: DYNAMIC
+nel: {"report_to":"cf-nel","success_fraction":0.0,"max_age":604800}
+report-to: {"group":"cf-nel","max_age":604800,"endpoints":[{"url":"https://a.nel.cloudflare.com/report/v4?s=FAOIQ6FiDovPM5YIk67U37x3JL0bdgfI9UATnU%2FZaOajskAiNSv5MCYR%2BN7bt1rX2%2F6YjQVy2nyndgPghW8Pf56SnKSGAtpbCnpedPAZPvz%2BoIOvECE1G1qrANqUYzCMaqho5pujKA%3D%3D"}]}
+cf-ray: a1ba26cd5da441fd-CDG
+
+{"voting_params":{"voting_period":"432000s"},"deposit_params":null,"tally_params":null,"params":{"min_deposit":[{"denom":"ujuno","amount":"5000000000"}],"max_deposit_period":"864000s","voting_period":"432000s","quorum":"0.334000000000000000","threshold":"0.500000000000000000","veto_threshold":"0.334000000000000000","min_initial_deposit_ratio":"0.200000000000000000","proposal_cancel_ratio":"0.500000000000000000","proposal_cancel_dest":"","expedited_voting_period":"86400s","expedited_threshold":"0.667000000000000000","expedited_min_deposit":[{"denom":"ujuno","amount":"10000000000"}],"burn_vote_quorum":false,"burn_proposal_deposit_prevote":false,"burn_vote_veto":true,"min_deposit_ratio":"0.010000000000000000"}}
