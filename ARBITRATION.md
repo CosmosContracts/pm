@@ -1,8 +1,5 @@
 # ARBITRATION — JunoReality
 
-> Companion to `GOAL.md` + `PLAN.md`. Resolves the arbitration question Jake raised at kickoff (2026-05-28):
-> *"Reality.eth often uses Kleros for arbitration; our Reality.juno version should use Juno governance or a DAO DAO DAO."*
-
 ## The position
 
 **The arbitrator slot in `cw-reality` is an address. Any bech32 authorized to call `SubmitArbitration` for a given question can serve. No adapter contracts. No trait. Permission, not abstraction.**
