@@ -46,6 +46,18 @@ pub enum ContractError {
     NoPendingChallenge,
     #[error("governance verdict deadline reached")]
     ArbitrationDeadlineReached,
+    #[error("stalled challenge cannot be finalized before deadline")]
+    ArbitrationDeadlineNotReached,
+    #[error("oracle arbitration state verification failed: {0}")]
+    ArbitrationMismatch(String),
+    #[error("arbitration deadline arithmetic overflow")]
+    ArbitrationDeadlineOverflow,
+    #[error("oracle round-count arithmetic overflow")]
+    ArbitrationRoundOverflow,
+    #[error("oracle arbitration submessage failed: {0}")]
+    ArbitrationSubmessage(String),
+    #[error("verdict answer must not be empty")]
+    InvalidVerdictAnswer,
     #[error("unknown reply id {0}")]
     UnknownReplyId(u64),
     #[error("reply state does not match reply id")]
