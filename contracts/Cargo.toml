@@ -11,7 +11,7 @@ cosmwasm-schema = "1.5.4"
 cosmwasm-std = { version = "1.5.4", features = ["ibc3", "cosmwasm_1_2"] }
 cw-multi-test = { version = "0.20.1", features = ["cosmwasm_1_2"] }
 cw-storage-plus = "1.1"
-cw-utils = "1.0"
+cw-utils = "3.0"
 cw2 = "1.1"
 cw20 = "1.1"
 cw20-base = "1.1"
