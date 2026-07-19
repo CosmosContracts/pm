@@ -10,7 +10,7 @@ The market, not x/gov, is cw-reality's configured arbitrator. The proposal there
 
 ## Offline preparation
 
-Create a request matching `request.schema.json` from same-height direct queries. Do not copy stale fixture values. The request binds:
+Create a request matching `request.schema.json` from same-height direct queries. Do not copy stale fixture values. `scripts/governance/liveness_keeper.py preflight` performs these direct queries and emits a matching request JSON for one pending-arbitration market; it is read-only and still requires the independent revalidation below. The request binds:
 
 - `juno-1`, the live governance module account, and distinct exact market/oracle addresses;
 - canonical base64 encodings of an exact 32-byte question ID and answer;

@@ -11,6 +11,7 @@ cargo build --manifest-path "$manifest" --release --target wasm32-unknown-unknow
   --lib --locked -p binary-market -p cw-reality -p market-factory
 python3 -m unittest tests/oracle/test_verify_deployment.py
 python3 -m unittest tests/governance/test_prepare_rehearsal.py
+python3 -m unittest tests/governance/test_liveness_keeper.py
 python3 -m unittest tests/policy/test_interface_policy.py
 python3 -m unittest tests/quality/test_quality_report.py
 python3 scripts/quality/verify-report.py quality/gas-storage-report.json
