@@ -48,6 +48,12 @@ message directly. There is no generic relay and no authority rotation.
 
 ## Pre-execution review
 
+`scripts/governance/liveness_keeper.py preflight` performs steps 1-5 below as
+read-only LCD queries and emits a `prepare_rehearsal.py`-compatible request
+JSON with the queried fields pre-filled; it cross-checks question-ID,
+deadline, and arbitrator agreement between market and oracle before emitting
+anything. It never submits, votes, or executes. Steps 6-7 remain manual.
+
 1. Query market `config` and require `verdict_authority` to equal the DAO core
    above exactly; record the immutable market and oracle addresses.
 2. Query market `question` and copy its 32-byte `question_id` exactly.
